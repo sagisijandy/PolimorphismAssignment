@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace EmployeeInterface
+namespace IQuittable
 
 { 
     public interface IQuittable 
@@ -9,12 +9,7 @@ namespace EmployeeInterface
         void Quit();
     }
 
-}
-
-
-class Program
-{
-    static void Main(string[] args)
+     static void Main(string[] args)
     {
         // Instantiate an Employee object
         Employee employee = new Employee()
