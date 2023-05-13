@@ -9,7 +9,7 @@ namespace IQuittable
         void Quit();
     }
 
-     static void Main(string[] args)
+     public static void Main(string[] args)
     {
         // Instantiate an Employee object
         Employee employee = new Employee()
